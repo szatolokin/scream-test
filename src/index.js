@@ -13,5 +13,6 @@ window.addEventListener('DOMContentLoaded', () => {
         viewport: false,
     });
 
-    console.log(scream.isMinimalView());
+    const isMinimalView = scream.isMinimalView();
+    console.log(isMinimalView ? 'Minimal view' : 'Not minimal view');
 });
